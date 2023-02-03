@@ -29,7 +29,7 @@ import { onMounted, ref } from "vue";
 const extensions = ref();
 
 onMounted(async () => {
-  const response = await fetch("/manifest.json");
+  const response = await fetch("manifest.json");
   extensions.value = await response.json();
 });
 </script>
