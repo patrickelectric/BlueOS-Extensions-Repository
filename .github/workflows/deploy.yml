@@ -3,7 +3,7 @@ name: Consolidate and Deploy
 on:
   push:
     branches:
-      - master
+      - potato_2
   pull_request:
   schedule:
     - cron: "0 10 */1 * *" # At 10:00 UTC on every day-of-month
