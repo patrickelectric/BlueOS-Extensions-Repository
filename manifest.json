@@ -69,68 +69,6 @@
                         "SEND_RATE=2.0"
                     ]
                 }
-            },
-            "v1.0.0": {
-                "identifier": "b0578e4c-ce55-55d4-8f15-6769980b788c",
-                "type": "device-integration",
-                "website": "https://github.com/clydemcqueen/wl_ugps_external_extension",
-                "images": [
-                    {
-                        "expanded_size": 44578831,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5c36bfe11ab66417047206a99a7f6fe4c907af9f6732e689ef922c223f8cbd73"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Clyde McQueen",
-                        "email": "clyde@mcqueen.net"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "short-baseline"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "# WL UGPS External Position BlueOS Extension \n\nA simple [BlueOS Extension](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/development/extensions/)\nthat listens for NMEA messages (GGA and HDT) and sends position information to the\n[Water Linked UGPS](https://waterlinked.com/underwater-gps-g2) system.\n\n![Extension UI](images/extension_ui.png)\n\n## Typical Configuration\n\nAdd a satellite compass to the vessel and connect it to the ROV Ethernet network.\n* It should have a static IP address on the 192.168.2.X subnet\n* It should send GGA and HDT messages via UDP to BlueOS at 192.168.2.2:6200\n\nInstall this extension in BlueOS:\n* Select _Extensions_ in the sidebar, then the _Installed_ tab\n* Click on the + icon in the lower right\n* Enter the following information, then click _Create_\n\n_Extension Identifier_\n~~~\nclydemcqueen.wl_ugps_external_extension\n~~~\n\n_Extension Name_\n~~~\nwl_ugps_external_extension\n~~~\n\n_Docker image_\n~~~\nclydemcqueen/wl_ugps_external_extension\n~~~\n\n_Docker tag_\n~~~\nlatest\n~~~\n\n_Custom settings_\n~~~\n{\n  \"ExposedPorts\": {\n    \"8080/tcp\": {},\n    \"6200:6200/udp\": {}\n  },\n  \"HostConfig\": {\n    \"PortBindings\": {\n      \"6200/udp\": [\n        {\n          \"HostPort\": \"6200\"\n        }\n      ],\n      \"8080/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    }\n  },\n  \"Env\": [\n    \"UGPS_HOST=http://192.168.2.94\",\n    \"SEND_RATE=2.0\"\n  ]\n}\n~~~\n\nYou should see the extension running:\n\n![Extension running](images/extension_running.png)\n\nAfter a few moments you should see the _WL UGPS External_ entry in the sidebar.\nClick on it to see a very simple UI.\n\n## Arguments\n\n* `ugps_host` is typically `http://192.168.2.94`\n* `send_rate` is typically 2Hz\n\n## Caveats\n\n* The G2 box still needs a GPS fix to synchronize its clock.\n",
-                "support": "https://github.com/clydemcqueen/wl_ugps_external_extension/issues",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Discovery Bay Robotics",
-                    "email": "clyde@mcqueen.net"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8080/tcp": {},
-                        "6200:6200/udp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "6200/udp": [
-                                {
-                                    "HostPort": "6200"
-                                }
-                            ],
-                            "8080/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    },
-                    "Env": [
-                        "UGPS_HOST=http://192.168.2.94",
-                        "SEND_RATE=2.0"
-                    ]
-                }
             }
         }
     },
@@ -248,62 +186,6 @@
                     "HostConfig": {
                         "Binds": [
                             "/usr/blueos/extensions/ping-survey:/app/logs"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "5420/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.0": {
-                "identifier": "276e7852-159a-54f2-a476-0b623801fb8b",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 54320169,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f329aae26ef680843dd8b54ccb72f3e35ec80102b3d850a2c87ce4c522740a62"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Tony White",
-                        "email": "tonywhite@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/vshie/pingSurvey"
-                },
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "# BlueOS-ping Survey\n# A simple extension for BlueOS intended for collection of time-sync'd sonar and GPS data. \n\n# Future feature ideas: \n",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "5420/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Binds": [
-                            "/root/.config/blueos/extensions/$IMAGE_NAME:/root/.config"
                         ],
                         "ExtraHosts": [
                             "host.docker.internal:host-gateway"
@@ -2367,65 +2249,6 @@
                     }
                 }
             },
-            "v1.0.0-beta.12": {
-                "identifier": "2dd50e51-2f3c-552b-8e1f-c85a524ca7cb",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 13792434,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ac0f19bc304990816ebacd561d9b07baa797ca2ef64faa24a7f3843bc00d13d9"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.12",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v1.0.0-beta.11": {
                 "identifier": "ec8d7f8b-0b0f-5005-9852-7da496cd5786",
                 "type": "other",
@@ -3337,15 +3160,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:bbe7838bbc614d24f684154dddc1562c6635cfc25025dfb86c83b8a276e5a67a"
-                    },
-                    {
-                        "expanded_size": 12886257,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5e243cade76583ca807fb98ba72f3a7302d1f2e9bc8fa2e8e5ba5b95163dd4ed"
                     }
                 ],
                 "authors": [
@@ -5981,54 +5795,6 @@
                         }
                     }
                 }
-            },
-            "v1.0.0": {
-                "identifier": "e27b2b4c-10f0-5277-9045-0f1482e0a2bc",
-                "type": "other",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
-                "images": [
-                    {
-                        "expanded_size": 49260395,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0d15d91d5b3612b3f6c1feda490b605ca7ef8ad16cb4dfb622eb12581d8d4b72"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
-                "support": "https://github.com/Williangalvani/BlueOS-examples/",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
             }
         }
     },
@@ -7088,67 +6854,6 @@
                     }
                 }
             },
-            "1.1.1": {
-                "identifier": "74ee6c4f-b235-55df-b9f0-21834eb183e7",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 690118664,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:36249d2e485389d1a2cc2470160a2452236bba9684a1050f9a1a83bda032579e"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "code",
-                    "development",
-                    "ide",
-                    "vscode",
-                    "python",
-                    "rust"
-                ],
-                "extra_links": {},
-                "tag": "1.1.1",
-                "docs": null,
-                "readme": "# BlueOS Code Server\n\nBlueOS extension for OpenVSCode Server.\n\nOpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
-                            "/usr/blueos/openvscode:/openvscode:rw",
-                            "/var/run/docker.sock:/var/run/docker.sock:rw",
-                            "/usr/bin/docker:/usr/bin/docker:ro",
-                            "/etc/hostname:/etc/hostname:ro",
-                            "/dev:/dev:rw",
-                            "/:/home/workspace/host:rw"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "1.1.0": {
                 "identifier": "5e8030ab-ba57-5282-b306-5aae909f721d",
                 "type": "other",
@@ -7328,64 +7033,6 @@
                     }
                 }
             },
-            "1.0.5": {
-                "identifier": "c989ddf7-85f3-5460-b5e5-a639850d69d0",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 306628410,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:fca3d0af07145c5a4b15ed014f9e7db84d2f358b4d22716cf0fda8d31cbc479b"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "code",
-                    "development",
-                    "ide",
-                    "vscode",
-                    "python",
-                    "rust"
-                ],
-                "extra_links": {},
-                "tag": "1.0.5",
-                "docs": null,
-                "readme": "# BlueOS Code Server\n\nBlueOS extension for OpenVSCode Server.\n\nOpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
-                            "/usr/blueos/openvscode:/openvscode:rw",
-                            "/etc/hostname:/etc/hostname:ro",
-                            "/:/home/workspace/host:rw"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "1.0.4": {
                 "identifier": "fb045e44-05da-513c-bb57-102a345fbe29",
                 "type": "other",
@@ -7417,63 +7064,6 @@
                 ],
                 "extra_links": {},
                 "tag": "1.0.4",
-                "docs": null,
-                "readme": "# BlueOS Code Server\n\nBlueOS extension for OpenVSCode Server.\n\nOpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
-                            "/usr/blueos/openvscode:/openvscode:rw",
-                            "/:/home/workspace/host:rw"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "1.0.3": {
-                "identifier": "d1300938-da1c-5069-9afa-ffe3f5187eb0",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 211619864,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5647c270f0f05c688748e58912aa139e1d82b8801ccf23b4997631e13f89abe9"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "code",
-                    "development",
-                    "ide",
-                    "vscode",
-                    "python",
-                    "rust"
-                ],
-                "extra_links": {},
-                "tag": "1.0.3",
                 "docs": null,
                 "readme": "# BlueOS Code Server\n\nBlueOS extension for OpenVSCode Server.\n\nOpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
                 "support": null,
@@ -8209,53 +7799,6 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/waterlinked/ugps/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/waterlinked/company_logo.png",
         "versions": {
-            "v1.0.7-beta.2": {
-                "identifier": "01960110-d3b4-5ec9-b831-fc6ed5504c76",
-                "type": "device-integration",
-                "website": "https://github.com/waterlinked/blueos-ugps-extension",
-                "images": [
-                    {
-                        "expanded_size": 42996077,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:827ca6180221c282ced1a2c58e02388c1cf1b4eb87cca1604355a90bf0b81293"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "short-baseline"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.7-beta.2",
-                "docs": null,
-                "readme": "# BlueOS Extension for Water Linked Underwater GPS\n\n## State\n\nThis extension **has no UI page** (so it creates no listing in the sidebar of BlueOS).\n\n## Functionality\n\nAssuming the UGPS is detected and working, this service\n* forwards MAVLink data from [Mavlink2Rest](https://github.com/patrickelectric/mavlink2rest) like depth to the UGPS Topside (to enable it to function)\n* forwards locator position from UGPS Topside to MAVLink (message `GPS_INPUT`)\n    * the autopilot should send corresponding `GPS_RAW_INT` messages to the topside computer (QGroundControl)\n    * the autopilot sends regular `GLOBAL_POSITION_INT` messages to the topside computer with its filtered position estimates\n* forwards topside position from UGPS Topside to UDP port `14401` with NMEA to be received by QGroundControl.\n    * This feature is **experimental** and does not work reliably with all version of QGroundControl.\n\nIf you do not have access to a UGPS system, you can use UGPS_HOST=https://demo.waterlinked.com , which simulates a UGPS system with its API.\n\nHardware documentation can be found at https://waterlinked.github.io/underwater-gps/integration/bluerov-integration/\n\n## How to install\n\nThere are 2 options\n\n### Preferred: Use the extensions manager in BlueOS > 1.1.0\n* Click Extensions > Extensions Manager\n* Install this extension\n\nConfiguration is usually not required, but can be done by editing the extension in the \"Installed\" tab of the Extensions Manager.\n\nEditing requires [Pirate Mode](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-latest/advanced-usage/#pirate-mode)\nto be enabled, after which the \"Edit\" button can be used. Copy the Original Settings contents\ninto the Custom settings box, and (if necessary) change the IPs/Host addresses, e.g. to use the demo server:\n```\n{\n  \"NetworkMode\": \"host\",\n  \"Env\": [\n  \"UGPS_HOST=https://demo.waterlinked.com\",\n  \"MAVLINK_HOST=http://192.168.2.2:6040\",\n  \"QGC_IP=192.168.2.1\",\n  \"EXTRA_ARGS=\"\n  ]\n}\n```\n\nUse the \"View Logs\" button to check the status.\n\n### For developers: Build docker image yourself and start it\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal))\n\ninstall git, clone this repository and run\n```\n# build the docker image\ndocker build -t waterlinked/blueos-ugps-extension:latest .\n# see all images\ndocker images\n\n# running the plugin\n\n# either: run detached\n#   with standard command\ndocker run -d --net=host waterlinked/blueos-ugps-extension:latest python app/main.py --ugps_host http://192.168.2.94 --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n#   or with demo server\ndocker run -d --net=host waterlinked/blueos-ugps-extension:latest python app/main.py --ugps_host https://demo.waterlinked.com --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n\n# or: in interactive shell to get debug output\ndocker run -it waterlinked/blueos-ugps-extension:latest /bin/bash\n#   with standard command\ncd app && python main.py --ugps_host http://192.168.2.94 --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n#   or with demo server\ncd app && python main.py --ugps_host https://demo.waterlinked.com --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n# end interactive session\nexit\n\n# then stop/start/look at log with\ndocker stop [container-id]\ndocker start [container-id]\ndocker log [container-id] # if run detached\n\n# if you are a developer, upload the docker image to registry with (replace \"latest\" with desired tag)\ndocker login -u waterlinked\ndocker push waterlinked/blueos-ugps-extension:latest\n```\n",
-                "support": "https://github.com/waterlinked/blueos-ugps-extension/issues",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Water Linked",
-                    "email": "support@waterlinked.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "Env": [
-                        "UGPS_HOST=http://192.168.2.94",
-                        "MAVLINK_HOST=http://192.168.2.2:6040",
-                        "QGC_IP=192.168.2.1",
-                        "EXTRA_ARGS="
-                    ]
-                }
-            },
             "v1.0.7-beta.1": {
                 "identifier": "d1d3cffe-5837-5348-8d19-67f7c271f461",
                 "type": "device-integration",
