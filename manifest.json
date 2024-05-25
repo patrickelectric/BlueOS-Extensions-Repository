@@ -8,6 +8,68 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/clydemcqueen/wl_ugps_external/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/clydemcqueen/company_logo.png",
         "versions": {
+            "v1.0.1": {
+                "identifier": "32a5efd4-9364-5021-a677-9c6371f90e29",
+                "type": "device-integration",
+                "website": "https://github.com/clydemcqueen/wl_ugps_external_extension",
+                "images": [
+                    {
+                        "expanded_size": 44578751,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:e0fab510697080cd9c972e1eeb987371fc49f11d64384574a1c80fd72da5c3a6"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Clyde McQueen",
+                        "email": "clyde@mcqueen.net"
+                    }
+                ],
+                "filter_tags": [
+                    "positioning",
+                    "navigation",
+                    "short-baseline"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.1",
+                "docs": null,
+                "readme": "# WL UGPS External \n\nSend NMEA position information (GGA and HDT) to the [Water Linked UGPS](https://waterlinked.com/underwater-gps-g2) API.\n\n## Typical Configuration\n\nAdd a satellite compass to the topside vessel and connect it to the ROV Ethernet network.\n* It should have a static IP address on the 192.168.2.X subnet\n* It should send GGA and HDT messages via UDP to BlueOS at 192.168.2.2:6200\n\nInstall this extension in [BlueOS](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/overview/):\n* Select _Extensions_ in the sidebar\n* Click on _WL UGPS External_\n* Click _Install_\n\nAfter a few moments you should see the _WL UGPS External_ entry in the sidebar.\nClick on it to see a very simple UI.\n\n## Arguments\n\n* `UGPS_HOST` is the IP address of the WL UGPS G2 box, the default is `http://192.168.2.94`\n* `SEND_RATE` is the rate to send position information to the G2 box, the default is 2Hz\n\n## Caveats\n\n* The G2 box still needs a GPS fix to synchronize its clock.\n\n## Releases\n\n### v1.0.1\n\n* Simplified README\n\n### v1.0.0\n\n* Initial release\n",
+                "support": "https://github.com/clydemcqueen/wl_ugps_external_extension/issues",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Discovery Bay Robotics",
+                    "email": "clyde@mcqueen.net"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8080/tcp": {},
+                        "6200:6200/udp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "6200/udp": [
+                                {
+                                    "HostPort": "6200"
+                                }
+                            ],
+                            "8080/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    },
+                    "Env": [
+                        "UGPS_HOST=http://192.168.2.94",
+                        "SEND_RATE=2.0"
+                    ]
+                }
+            },
             "v1.0.0": {
                 "identifier": "b0578e4c-ce55-55d4-8f15-6769980b788c",
                 "type": "device-integration",
@@ -2683,15 +2745,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:db32e3c0f690375837db0c38743bcc202e5dc56a5886585a6db5c3cc0a9d50a8"
-                    },
-                    {
-                        "expanded_size": 12897150,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:830999f377e95a8114793f41fd5ec6099d76744e6cce2aed36a88af05fedec5a"
                     }
                 ],
                 "authors": [
@@ -2946,15 +2999,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:847b44ead971ab57cf1614597b6c5b56a00376f5ebc64ef280eac938aeb1947b"
-                    },
-                    {
-                        "expanded_size": 12829498,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:edbb03b015636c846fafaee3fcf07b146e19cc3d920320a40a8147697491dcc2"
                     }
                 ],
                 "authors": [
@@ -3014,15 +3058,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:1da3ab5cf742728b3a2b4d75b2ae1d0776fbb1cc848d08a3851a42d99494ac7b"
-                    },
-                    {
-                        "expanded_size": 12932157,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:33bafc343fa8f93373e323ecb22e6207299c472399f5d9052975ef2c06144dde"
                     }
                 ],
                 "authors": [
@@ -3082,15 +3117,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:283ff9b0d19c35d73b221dcd2284555a7ce7ee0c34bb04f9bb7a6978e90df550"
-                    },
-                    {
-                        "expanded_size": 12933238,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f904553d67ba5fa9f4ecb899dd71a5346a9cca4921d18050bfcff0fc54b3b519"
                     }
                 ],
                 "authors": [
@@ -3582,15 +3608,6 @@
                 "type": "other",
                 "website": null,
                 "images": [
-                    {
-                        "expanded_size": 12879818,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:b2459c75d521154ee9e11b27bcc5a569a4ccbd9ddd83c93fd66a6dbd52b56a5a"
-                    },
                     {
                         "expanded_size": 12439212,
                         "platform": {
@@ -6952,6 +6969,46 @@
                     "HostConfig": {
                         "Privileged": true,
                         "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "4d7a08b8-ab08-54b2-8cfb-ae1a6f2acb7b",
+                "type": "other",
+                "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
+                "images": [
+                    {
+                        "expanded_size": 62349790,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b84df60bdd753d795c649f5ba2266a3394961da30a94f36a090aea5626ccda53"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "# BlueOS VirtualHere extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\nTo use, first install it in BlueOS:\n\n\n```\nred-pill\nsudo docker run -d --net=host --privileged --name=blueos-virtualhere --restart=unless-stopped williangalvani/blueos-extension-virtualhere:latest\n```\n\n# Client\n\nDownload a client from https://www.virtualhere.com/usb_client_software",
+                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true
                     }
                 }
             }
