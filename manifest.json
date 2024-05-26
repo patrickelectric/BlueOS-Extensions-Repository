@@ -2804,15 +2804,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:2aa3c3d0560b14003fb3752e2c84d30898a066876af19067333c3d6cb650efd1"
-                    },
-                    {
-                        "expanded_size": 12854834,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ae45f97aa0d7fe6c57bed8eb57e19539a8161f1d341a2fcf0f29e3aac8a8281e"
                     }
                 ],
                 "authors": [
@@ -2931,15 +2922,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:30d9e3c0c53b55b2514b24a314b16b4da139ce282cc827bf6931d14d14e525e1"
-                    },
-                    {
-                        "expanded_size": 12829506,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6f537919295007fac6c7705500ea52f05e25a58888d2ed52bff37a1129d21a89"
                     }
                 ],
                 "authors": [
@@ -3473,15 +3455,6 @@
                 "website": null,
                 "images": [
                     {
-                        "expanded_size": 12879913,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:127a0f67416c41ab5b23b33ca044d1e99403b5ec567b8e613e4d1ace96f15f00"
-                    },
-                    {
                         "expanded_size": 12439277,
                         "platform": {
                             "architecture": "arm",
@@ -3540,15 +3513,6 @@
                 "type": "other",
                 "website": null,
                 "images": [
-                    {
-                        "expanded_size": 12882509,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ee47730a16a0c6c439312985acaeb85855fde1577f46b41783f0475553b01e9f"
-                    },
                     {
                         "expanded_size": 12441878,
                         "platform": {
