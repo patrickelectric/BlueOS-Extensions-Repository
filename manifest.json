@@ -531,15 +531,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:3b8b7880f4ce78bab0ab1a28d2bb9aaf92cffc1cf807f905e45de1406885acdd"
-                    },
-                    {
-                        "expanded_size": 44661331,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:72337e56947e2b73521a626f8db1692a17d9b54f95787784edda76236e70ffce"
                     }
                 ],
                 "authors": [
@@ -2269,24 +2260,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:2d411e8d83f3e1921b429166c1b160c9813a7591d3cfded3a8330255fb651959"
-                    },
-                    {
-                        "expanded_size": 14818336,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2518c72e3f4fab12cef9d223386823fbe84c32445758414d62037ffcfeb3fc54"
-                    },
-                    {
-                        "expanded_size": 14862357,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:431e2ea212e30a2f549633e5b840fdce27034a1817a97de62ebcce2bdf899877"
                     }
                 ],
                 "authors": [
