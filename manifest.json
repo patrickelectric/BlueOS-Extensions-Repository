@@ -471,15 +471,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:d9521aca36f3adb67a84358499748d9386edfead62f1ca0838dec52ef9422382"
-                    },
-                    {
-                        "expanded_size": 44661283,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:69c793475a75f74f246a000181ddcab97f0e357119137070c692ded072adb26b"
                     }
                 ],
                 "authors": [
@@ -522,15 +513,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:f28eb276d147a8c5b33f766568758ea1262b42a512ba14ecbdd3702a03bf7609"
-                    },
-                    {
-                        "expanded_size": 42853915,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:3b8b7880f4ce78bab0ab1a28d2bb9aaf92cffc1cf807f905e45de1406885acdd"
                     }
                 ],
                 "authors": [
@@ -1966,15 +1948,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:2f52eb554ba188b329ad06f5167927c54fa773cb33beb6f78a1d2bb3ab991395"
-                    },
-                    {
-                        "expanded_size": 72588503,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1e8607b8ea94b70337ada4b84941aa38fcccb06b0c630122d07c2dc66e64630d"
                     }
                 ],
                 "authors": [
@@ -5838,15 +5811,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:feec843fadf59cfa34d94b8684354fb9cb6c150b107fd30cff87b6772c0b0295"
-                    },
-                    {
-                        "expanded_size": 1775877643,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:122792a81db3d0ecaff4b300237e9f1bd43da2447b0a62dd90c691ae85c7b7cc"
                     }
                 ],
                 "authors": [
