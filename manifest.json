@@ -825,6 +825,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:cd327daa249b1b355617531db9f751ff2099ef3e2881c736f2e12eff31c97daf"
+                    },
+                    {
+                        "expanded_size": 38383327,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a21de0655ed73d40b7415f5e85bd727d709c9517d9960b10e2d4e5dee49624e9"
                     }
                 ],
                 "authors": [
