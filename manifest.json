@@ -1002,6 +1002,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:438de8ade5df2138b3cf547eed234d3714363eed3274dbe84afe0c609fbc6dda"
+                    },
+                    {
+                        "expanded_size": 86912704,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:626fa4b14d82af6abd400955aa7e4e9002f4114ba3fd93bb45a9a8f062157bb8"
                     }
                 ],
                 "authors": [
@@ -1053,6 +1062,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:438de8ade5df2138b3cf547eed234d3714363eed3274dbe84afe0c609fbc6dda"
+                    },
+                    {
+                        "expanded_size": 86912704,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:626fa4b14d82af6abd400955aa7e4e9002f4114ba3fd93bb45a9a8f062157bb8"
                     }
                 ],
                 "authors": [
@@ -2057,6 +2075,83 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/cockpit/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/company_logo.png",
         "versions": {
+            "v1.0.0-beta.18": {
+                "identifier": "8b87ba8f-8a01-51ca-a4fd-b1d5b21d3f10",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 15598779,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0ffe807162f11bc8c8328c5617c254b9d8fbd4d454581b8c638a3492ffb4e0b0"
+                    },
+                    {
+                        "expanded_size": 15810884,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:08d23911f5487bbf628257fc0ad7e4334d4970e47f2de8c8e214f217e3a496d6"
+                    },
+                    {
+                        "expanded_size": 15854889,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:75e10bcbdddd69a6fbe88e8ad6dbab5b7a45ccde730400420873b9850b7133d0"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.18",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "v1.0.0-beta.17": {
                 "identifier": "ccc287b6-57da-5c9b-bb66-3abcc272082e",
                 "type": "other",
@@ -3426,65 +3521,6 @@
                 ],
                 "extra_links": {},
                 "tag": "v0.16.3",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v0.16.2": {
-                "identifier": "96cceb9e-af1d-5a30-b36c-857a0fa5f6d0",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 12439212,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:c36509963cc8a988f941ee47c705ad956386076a37d38adf3e9d4feb18a65321"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v0.16.2",
                 "docs": null,
                 "readme": null,
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
