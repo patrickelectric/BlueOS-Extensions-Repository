@@ -4083,6 +4083,80 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/jmrobotics/jm-connect/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/jmrobotics/company_logo.png",
         "versions": {
+            "0.1.6": {
+                "identifier": "a4b4f76c-05cc-5d2e-a10e-0f0c4f83ac56",
+                "type": "other",
+                "website": "https://www.jmrobotics.no",
+                "images": [
+                    {
+                        "expanded_size": 138671180,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6bf09bdef42b75b4b336aa8477b79f1ee68f2b538b59553f26635f30e2d3d9e7"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.1.6",
+                "docs": null,
+                "readme": "# JM Robotics, JM-Connect Extension.\n\nThis extension is for connecting your ROV to the JM Connect Ecosystem.\nIt also allows controlling focus-level of JM Robotics focus-cameras. \n\nIn addition you can stream audio from the rpi's camera at http://<rov-ip>:8137 (beta)\n\n",
+                "support": "https://www.jmrobotics.no",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "JM Robotics",
+                    "email": "support@jmrobotics.no"
+                },
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config",
+                            "/var/run/docker.sock:/var/run/docker.sock"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "0.1.5": {
                 "identifier": "daf1d7e7-6dc5-5812-b6fe-67232ff1b411",
                 "type": "other",
