@@ -5345,15 +5345,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:403797eeef9396e67001caa71d638c64e10a8e27aad5f16838208de4c7ae5c47"
-                    },
-                    {
-                        "expanded_size": 90059708,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f5e20bed5a5733ea65c3a929d0492032897c550314fef9dd9db2c725a8a796a3"
                     }
                 ],
                 "authors": [
