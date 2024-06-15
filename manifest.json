@@ -8,6 +8,77 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/clydemcqueen/wl_ugps_external/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/clydemcqueen/company_logo.png",
         "versions": {
+            "v1.0.3": {
+                "identifier": "f62c3d5a-716d-5f9d-89f4-1f44cb29fcd2",
+                "type": "device-integration",
+                "website": "https://github.com/clydemcqueen/wl_ugps_external_extension",
+                "images": [
+                    {
+                        "expanded_size": 51589275,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:847790ac52cc419d9cf8206c685353c0de21e2cd935f38cf31d79c03ef450f9c"
+                    },
+                    {
+                        "expanded_size": 45696701,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2adff8e939478262b0cc0b35ee93d79f6a6d876902a10350e3ce93d7c7403dfe"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Clyde McQueen",
+                        "email": "clyde@mcqueen.net"
+                    }
+                ],
+                "filter_tags": [
+                    "positioning",
+                    "navigation",
+                    "short-baseline"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.3",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/clydemcqueen/wl_ugps_external_extension/v1.0.3/README.md: status: 404: 404: Not Found",
+                "support": "https://github.com/clydemcqueen/wl_ugps_external_extension/issues",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Discovery Bay",
+                    "email": "clyde@mcqueen.net"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8080/tcp": {},
+                        "6200:6200/udp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "6200/udp": [
+                                {
+                                    "HostPort": "6200"
+                                }
+                            ],
+                            "8080/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    },
+                    "Env": [
+                        "UGPS_HOST=http://192.168.2.94",
+                        "SEND_RATE=2.0"
+                    ]
+                }
+            },
             "v1.0.2": {
                 "identifier": "feba0cfb-e968-5301-b11e-90b6071bd828",
                 "type": "device-integration",
@@ -2164,6 +2235,83 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/cockpit/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/company_logo.png",
         "versions": {
+            "v1.0.0-beta.20": {
+                "identifier": "6d104a93-7dd0-5e3d-a03b-93923a62c47e",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 15821318,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:690181829375f70aaeb4dc884ed8bbd0c7627bfe911880767850b865f8891b78"
+                    },
+                    {
+                        "expanded_size": 15865306,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5508494d94cef80625d817764c7221b0b09d417fb31def22ff25f37ef8fbef42"
+                    },
+                    {
+                        "expanded_size": 15609220,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:cab0c9ea9afb911150f314d1c09ce6a2825b91750ad5c062976748a56d8b272b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.20",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "v1.0.0-beta.19": {
                 "identifier": "d5c5b2ac-d106-5382-acf4-ad4fb39fb41f",
                 "type": "other",
@@ -2535,15 +2683,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:b492a88758ec5c68bf34229ed769a5bc69e1bc62a7f8568e7fe8a0d843f56c60"
-                    },
-                    {
-                        "expanded_size": 14819085,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:98e6a964eada966421abb7b1f5f8e7d2544943ebd6fab900b2a8be23bf804a96"
                     }
                 ],
                 "authors": [
@@ -3533,65 +3672,6 @@
                         }
                     }
                 }
-            },
-            "v0.17.0": {
-                "identifier": "b0c47531-2ab3-5386-a489-1b7b6c55de14",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 12445642,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:bbe7838bbc614d24f684154dddc1562c6635cfc25025dfb86c83b8a276e5a67a"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v0.17.0",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
             }
         }
     },
@@ -4205,80 +4285,6 @@
                     }
                 }
             },
-            "0.1.5": {
-                "identifier": "daf1d7e7-6dc5-5812-b6fe-67232ff1b411",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 136304617,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:002194270ed9fbbe8cac68fa8c7d66e65e96bf5f0ca882afc1c739c4bedba43c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.1.5",
-                "docs": null,
-                "readme": "# JM Robotics, JM-Connect Extension.\n\nThis extension is for connecting your ROV to the JM Connect Ecosystem.\nIt also allows controlling focus-level of JM Robotics focus-cameras. \n\nIn addition you can stream audio from the rpi's camera at http://<rov-ip>:8137 (beta)\n\n",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config",
-                            "/var/run/docker.sock:/var/run/docker.sock"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "0.1.4": {
                 "identifier": "9e541814-e629-5f4a-8694-cbbc0cf59a34",
                 "type": "other",
@@ -4793,79 +4799,6 @@
                     }
                 }
             },
-            "0.0.7": {
-                "identifier": "e2484dd2-e2ba-5ac4-9d91-7d717f618332",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 96633870,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:29567855a636348f71a638082d335c6229f095d74548b4b4d42ce5752a1a77fe"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.0.7",
-                "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "0.0.6": {
                 "identifier": "d859a0f3-6010-5e77-bf71-73b51788130e",
                 "type": "other",
@@ -4936,339 +4869,6 @@
                                 }
                             ]
                         }
-                    }
-                }
-            },
-            "0.0.5": {
-                "identifier": "5567cfc0-0947-559b-b69c-3a0eb7ebba12",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 94350096,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:df13934cdb1e4d0bd6b3dd5f1d94856866de13e5e1e246a817243510eab945b7"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.0.5",
-                "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.0.4": {
-                "identifier": "fbde77c2-558e-5654-9fba-00720ba5ca46",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 98481422,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a383b8e2f0888f718c52bc92f99d4180bce41e3d9d44ef6886b642e6ae2d1719"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.0.4",
-                "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.0.3": {
-                "identifier": "04354e64-e2b2-59ba-b0d7-61cbe54a3820",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 98481100,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:c58fd0b5d2f68f9df5924ff54f444849aa1c413e40a2725bc01cf6a3b6ca3645"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.0.3",
-                "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.0.2": {
-                "identifier": "a102f7fd-cb95-5bb6-99ed-3b0b1ae0b1cc",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 55223354,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:50251ec8c463a50ab3013bdcdd6bfb1f913c34ffe579f326c12d539b5bd14248"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.0.2",
-                "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.0.1": {
-                "identifier": "b7af0fda-ea84-5b6a-82fa-e72932971ebd",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 43060080,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6697aeaebf7b1ffe2847c7434e8a3dd2d42872efb359d0f978ba6152140313fa"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.0.1",
-                "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Binds": [
-                            "/root/.config/jm:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ]
                     }
                 }
             }
