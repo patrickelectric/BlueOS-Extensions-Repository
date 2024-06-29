@@ -2717,37 +2717,113 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/oakd/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
         "versions": {
-            "v1.0.0": {
-                "identifier": "267435ea-f9fd-510b-b863-250a622957f2",
-                "type": "example",
+            "v1.0.1": {
+                "identifier": "63e34a69-3b69-5327-8254-d4ff289d23db",
+                "type": "device-integration",
                 "website": "https://github.com/Williangalvani/Oakd-extension/",
                 "images": [
                     {
-                        "expanded_size": 2008095314,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2711ef5531049f45ce98461b006925d04e88c99fbb32b0dbf2bdc51912f47673"
-                    },
-                    {
-                        "expanded_size": 2116665490,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:69e15553caef6418b63953df8b990cea42a4d6be1f3c9a21b0fbe3ea367fa98e"
-                    },
-                    {
-                        "expanded_size": 1847926932,
+                        "expanded_size": 1150339197,
                         "platform": {
                             "architecture": "arm",
                             "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:705f85b603c41443d251e59182ee1e8a6091823297985fb0070b860373b9413d"
+                        "digest": "sha256:17cb604a2ad65de827543a007a6ad0544f1386fa66468216a12c145b334e5984"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.1",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/Williangalvani/Oakd-extension/v1.0.1/Readme.md: status: 404: 404: Not Found",
+                "support": "https://github.com/Williangalvani/Oakd-extension/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/dev/bus/usb:/dev/bus/usb"
+                        ],
+                        "DeviceCgroupRules": [
+                            "c 189:* rmw"
+                        ]
+                    }
+                }
+            },
+            "v1.0.1-heta.1": {
+                "identifier": "4d8e6434-af76-53c3-b91c-111aff57d0da",
+                "type": "device-integration",
+                "website": "https://github.com/Williangalvani/Oakd-extension/",
+                "images": [
+                    {
+                        "expanded_size": 1150339016,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:55eb2f8e8d25a693dc2c53d52b082a29b5c6bf08c9d64d22a5a5c5ce8c93a49e"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.1-heta.1",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/Williangalvani/Oakd-extension/v1.0.1-heta.1/Readme.md: status: 404: 404: Not Found",
+                "support": "https://github.com/Williangalvani/Oakd-extension/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/dev/bus/usb:/dev/bus/usb"
+                        ],
+                        "DeviceCgroupRules": [
+                            "c 189:* rmw"
+                        ]
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "267435ea-f9fd-510b-b863-250a622957f2",
+                "type": "device-integration",
+                "website": "https://github.com/Williangalvani/Oakd-extension/",
+                "images": [
+                    {
+                        "expanded_size": 1150339194,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6da815487395a969ee4cd142ab7c55bf7b201032b433ae1e551af7380b75a042"
                     }
                 ],
                 "authors": [
