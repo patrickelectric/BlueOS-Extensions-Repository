@@ -306,15 +306,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:bf829ed4b3756cf975711ebb34159328dc0df1e4580e8615f47031b2ac2b344f"
-                    },
-                    {
-                        "expanded_size": 15854963,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2a42346cd40ed103bfec22f015e51b648377be9208ea10a0a497d75b62ec782b"
                     }
                 ],
                 "authors": [
@@ -451,6 +442,24 @@
                             "os": "linux"
                         },
                         "digest": "sha256:ecf23276f78e2d9c95f0c0bd694c2d8e319907f9a0eb2b65e7b7d5033fc01e97"
+                    },
+                    {
+                        "expanded_size": 14548655,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b3c4b67fe74cd670f7c71ac36cbacd208492362e92bbff56c1f8b0fd1378345a"
+                    },
+                    {
+                        "expanded_size": 14592647,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:7b7ff364e09cb83066f0f6f51516d98e69a7850ad61f4ca320593b0a1764a096"
                     }
                 ],
                 "authors": [
@@ -587,6 +596,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:2d411e8d83f3e1921b429166c1b160c9813a7591d3cfded3a8330255fb651959"
+                    },
+                    {
+                        "expanded_size": 14862357,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:431e2ea212e30a2f549633e5b840fdce27034a1817a97de62ebcce2bdf899877"
                     }
                 ],
                 "authors": [
@@ -877,6 +895,24 @@
                             "os": "linux"
                         },
                         "digest": "sha256:4cc76dda3b08ea31f1f53944c6e45d9a1b7ce5d7d6c961bfdd9eb6d6b37e7f9a"
+                    },
+                    {
+                        "expanded_size": 13825336,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:56d63b11a5cb92e5e01bec57774f94ec9c40c26ad7bb8e86beb95e1b8d5099fe"
+                    },
+                    {
+                        "expanded_size": 13914553,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:42a44fec9b02e63eac91c66ec2e154a5dd507cbf69827ebba74295fcdb816afe"
                     }
                 ],
                 "authors": [
