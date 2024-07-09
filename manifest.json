@@ -1670,6 +1670,24 @@
                             "os": "linux"
                         },
                         "digest": "sha256:5d453d8dac05c8bba80811acf803cdcf8334add32198d270f6e23b781aa4bdfa"
+                    },
+                    {
+                        "expanded_size": 12783686,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a0c511bcd6d8f761781d200c0e7e7faeae4153028c2e276a33c09f845d8a3b07"
+                    },
+                    {
+                        "expanded_size": 12886966,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:40aa394762dc0d5ad020dbac778f3abe3100dc69f95ab4a26721b041881adaf9"
                     }
                 ],
                 "authors": [
