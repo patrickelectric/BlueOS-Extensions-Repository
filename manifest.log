@@ -54,15 +54,15 @@
                 "status": "ERROR"
             },
             {
+                "message": "Failed to generate version 0.3.2 for extension bluerobotics.cellular-modem-manager, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version 0.2.0 for extension bluerobotics.cellular-modem-manager, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
                 "message": "Failed to generate version 0.3.0 for extension bluerobotics.cellular-modem-manager, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.3.2 for extension bluerobotics.cellular-modem-manager, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -96,83 +96,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.13.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.11.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.12.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.16.0-beta.5 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.12.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.10.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.7.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version v1.16.0-beta.2 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.16.0-beta.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.15.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.11.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.11.2 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.9.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.16.0-beta.3 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.15.2 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.16.0-beta.4 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.8.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.14.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.10.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.15.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -180,7 +104,83 @@
                 "status": "ERROR"
             },
             {
+                "message": "Failed to generate version v1.12.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.9.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.15.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version v1.7.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.8.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.13.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.15.2 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.10.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.16.0-beta.3 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.12.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.15.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.11.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.16.0-beta.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.11.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.14.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.11.2 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.10.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.16.0-beta.5 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.16.0-beta.4 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.7.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -202,7 +202,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.1.0 for extension bluerobotics.jupyter, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 0.2.0 for extension bluerobotics.jupyter, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -210,7 +210,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.2.0 for extension bluerobotics.jupyter, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 0.1.0 for extension bluerobotics.jupyter, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -246,11 +246,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.0.1 for extension bluerobotics.node-red, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.3 for extension bluerobotics.node-red, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 1.1.0 for extension bluerobotics.node-red, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -262,7 +258,11 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.1.0 for extension bluerobotics.node-red, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 1.0.1 for extension bluerobotics.node-red, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.3 for extension bluerobotics.node-red, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -280,15 +280,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.1.0 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.1 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.1.1 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 1.0.3 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -296,23 +288,15 @@
                 "status": "ERROR"
             },
             {
+                "message": "Failed to generate version 1.0.1 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version 1.0.0 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.0.7 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.1.2 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.5 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.2 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 1.1.0 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -320,7 +304,23 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.0.3 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 1.0.2 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.7 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.5 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.1.1 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.1.2 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -334,15 +334,15 @@
                 "status": "INFO"
             },
             {
+                "message": "Failed to generate version 1.0.0-beta.5 for extension bluerobotics.ping-viewer-next, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version 1.0.0-beta.4 for extension bluerobotics.ping-viewer-next, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
                 "message": "Failed to generate version 1.0.0-beta.6 for extension bluerobotics.ping-viewer-next, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.5 for extension bluerobotics.ping-viewer-next, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -382,7 +382,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.1.4 for extension bluerobotics.radcam-manager, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 0.1.3 for extension bluerobotics.radcam-manager, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -390,7 +390,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.1.3 for extension bluerobotics.radcam-manager, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 0.1.4 for extension bluerobotics.radcam-manager, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -412,11 +412,11 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.0.2 for extension bluerobotics.ros, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 0.0.1 for extension bluerobotics.ros, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.0.1 for extension bluerobotics.ros, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 0.0.2 for extension bluerobotics.ros, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -442,6 +442,14 @@
                 "status": "ERROR"
             },
             {
+                "message": "Failed to generate version v1.0.8 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.4 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version v1.0.0 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
@@ -450,15 +458,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.4 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version v1.0.1 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.0.6 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -466,7 +466,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.8 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.6 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -540,11 +540,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.2 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.0.7 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.1 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -552,11 +548,15 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.4 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.8 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.8 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.2 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.4 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -564,7 +564,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.1 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.7 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -582,71 +582,7 @@
                 "status": "INFO"
             },
             {
-                "message": "Failed to generate version 1.13.10 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.13.22-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.13.14 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version 1.13.2-dev for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.10.2-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.13.12 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.13.5-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.10.0-beta.11 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.10.2-beta.3 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.13.1-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.13.11 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.13.24-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.10.0 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.13.9-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.11.4 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.13.16 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.11.3 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -654,11 +590,27 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.11.1 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 1.11.3 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.13.20 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 1.10.0-beta.11 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.11.4 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.5-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.24-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.22-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -666,7 +618,15 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.13.15 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 1.10.2-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.11 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.10.2-beta.3 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -674,11 +634,51 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.10.0-beta.12 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 1.13.12 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.16 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.10.0 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.20 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.11.1 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.9-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.1-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.10 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
                 "message": "Failed to generate version 1.13.10-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.10.0-beta.12 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.15 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.14 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -714,11 +714,11 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.2 for extension clydemcqueen.wl_ugps_external, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.1 for extension clydemcqueen.wl_ugps_external, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.1 for extension clydemcqueen.wl_ugps_external, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.2 for extension clydemcqueen.wl_ugps_external, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -736,15 +736,19 @@
                 "status": "INFO"
             },
             {
+                "message": "Invalid tag name test for extension deepwaterexploration.dwe_os_2, error: Invalid version naming: test",
+                "status": "ERROR"
+            },
+            {
                 "message": "Invalid tag name latest for extension deepwaterexploration.dwe_os_2, error: Invalid version naming: latest",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v0.4.2-blueos for extension deepwaterexploration.dwe_os_2, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v0.4.3-blueos for extension deepwaterexploration.dwe_os_2, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v0.4.3-blueos for extension deepwaterexploration.dwe_os_2, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v0.4.2-blueos for extension deepwaterexploration.dwe_os_2, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -758,11 +762,11 @@
                 "status": "INFO"
             },
             {
-                "message": "Failed to generate version 0.0.2 for extension itskalvik.ros2, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 0.0.1 for extension itskalvik.ros2, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.0.1 for extension itskalvik.ros2, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 0.0.2 for extension itskalvik.ros2, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -798,7 +802,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.0.4 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 0.0.9 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -806,39 +810,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.1.6 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version 0.0.5 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.1.7 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.1.1 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.0.2 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.1.2 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.0.3 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.0.6 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.1.4 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -846,11 +818,39 @@
                 "status": "ERROR"
             },
             {
+                "message": "Failed to generate version 0.0.8 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version 0.1.9 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.0.9 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 0.0.2 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.4 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.6 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.3 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.5 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.1 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.6 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -858,15 +858,19 @@
                 "status": "ERROR"
             },
             {
+                "message": "Failed to generate version 0.1.2 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.7 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version 0.1.0 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.0.8 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.1.5 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 0.0.4 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -968,19 +972,19 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.7.1 for extension marinesitu.madrona, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.5.0 for extension marinesitu.madrona, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version 1.6.0 for extension marinesitu.madrona, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
                 "message": "Failed to generate version 1.7.0 for extension marinesitu.madrona, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.7.1 for extension marinesitu.madrona, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.5.0 for extension marinesitu.madrona, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -1002,27 +1006,15 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 2.0.1 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.0.7 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version 0.0.8 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
+                "message": "Failed to generate version 1.0.2 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version 1.0.0 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 2.0.0 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 2.0.3 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -1034,11 +1026,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.0.2 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.2.0 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 1.0.4 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -1050,7 +1038,23 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.0.4 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 0.0.7 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.2.0 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 2.0.0 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 2.0.1 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 2.0.3 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -1068,10 +1072,6 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.0.0 for extension patrickelectric.foxglove, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version 0.0.2 for extension patrickelectric.foxglove, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
@@ -1081,6 +1081,10 @@
             },
             {
                 "message": "Failed to generate version 0.0.3 for extension patrickelectric.foxglove, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.0 for extension patrickelectric.foxglove, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -1102,6 +1106,10 @@
                 "status": "ERROR"
             },
             {
+                "message": "Failed to generate version 1.0.1 for extension patrickelectric.starlink-position, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version 1.0.4 for extension patrickelectric.starlink-position, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
@@ -1115,10 +1123,6 @@
             },
             {
                 "message": "Failed to generate version 1.0.0 for extension patrickelectric.starlink-position, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.1 for extension patrickelectric.starlink-position, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -1136,11 +1140,11 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.0.2 for extension rmackay9.camera-download, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 0.0.1 for extension rmackay9.camera-download, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.0.1 for extension rmackay9.camera-download, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 0.0.2 for extension rmackay9.camera-download, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -1158,19 +1162,11 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.1 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.0.5 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.0.8 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version v1.0.3 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.4 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -1182,15 +1178,23 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.4 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.5 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.7 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.1 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.8 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
                 "message": "Failed to generate version v1.0.0 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.7 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -1212,11 +1216,11 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.1.0 for extension vshie.pingSurvey, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.1 for extension vshie.pingSurvey, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.1 for extension vshie.pingSurvey, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.1.0 for extension vshie.pingSurvey, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -1256,11 +1260,11 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.7 for extension waterlinked.ugps, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.6 for extension waterlinked.ugps, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.6 for extension waterlinked.ugps, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.7 for extension waterlinked.ugps, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -1268,11 +1272,11 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.4 for extension waterlinked.ugps, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.7-beta.2 for extension waterlinked.ugps, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.7-beta.2 for extension waterlinked.ugps, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.4 for extension waterlinked.ugps, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -1302,11 +1306,11 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v0.0.1 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.3 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.5 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v0.0.1 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -1314,19 +1318,19 @@
                 "status": "ERROR"
             },
             {
+                "message": "Failed to generate version v1.0.2 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version v1.0.4 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
+                "message": "Failed to generate version v1.0.5 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version v1.0.1 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.0.3 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.0.2 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -1364,15 +1368,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v0.0.3 for extension williangalvani.dashcam, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.0.4 for extension williangalvani.dashcam, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v0.0.15 for extension williangalvani.dashcam, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v0.0.19 for extension williangalvani.dashcam, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -1380,11 +1376,19 @@
                 "status": "ERROR"
             },
             {
+                "message": "Failed to generate version v0.0.15 for extension williangalvani.dashcam, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version v0.0.14 for extension williangalvani.dashcam, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v0.0.19 for extension williangalvani.dashcam, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v0.0.3 for extension williangalvani.dashcam, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.4 for extension williangalvani.dashcam, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -1398,11 +1402,11 @@
                 "status": "INFO"
             },
             {
-                "message": "Failed to generate version v1.0.1 for extension williangalvani.example1, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.example1, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.0 for extension williangalvani.example1, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.example1, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -1416,11 +1420,11 @@
                 "status": "INFO"
             },
             {
-                "message": "Failed to generate version v1.0.0 for extension williangalvani.example2, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.example2, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.1 for extension williangalvani.example2, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.example2, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -1434,11 +1438,11 @@
                 "status": "INFO"
             },
             {
-                "message": "Failed to generate version v1.0.0 for extension williangalvani.example3, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.example3, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.1 for extension williangalvani.example3, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.example3, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -1496,19 +1500,19 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.11.3 for extension williangalvani.mediamtx, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version 1.11.2 for extension williangalvani.mediamtx, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.11.2 for extension williangalvani.mediamtx, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.11.4 for extension williangalvani.mediamtx, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.11.4 for extension williangalvani.mediamtx, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.11.3 for extension williangalvani.mediamtx, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.11.2 for extension williangalvani.mediamtx, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -1530,19 +1534,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.0 for extension williangalvani.network-scanner, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.0.1 for extension williangalvani.network-scanner, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version 1.0.3 for extension williangalvani.network-scanner, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.2 for extension williangalvani.network-scanner, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -1550,7 +1542,19 @@
                 "status": "ERROR"
             },
             {
+                "message": "Failed to generate version 1.0.2 for extension williangalvani.network-scanner, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.network-scanner, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version v1.0.4 for extension williangalvani.network-scanner, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.network-scanner, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -1564,11 +1568,11 @@
                 "status": "INFO"
             },
             {
-                "message": "Failed to generate version v1.0.1 for extension williangalvani.oakd, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.1-heta.1 for extension williangalvani.oakd, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.1-heta.1 for extension williangalvani.oakd, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.oakd, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -1586,15 +1590,7 @@
                 "status": "INFO"
             },
             {
-                "message": "Failed to generate version v1.0.2 for extension williangalvani.plc-diagnostics, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.0.5 for extension williangalvani.plc-diagnostics, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.1 for extension williangalvani.plc-diagnostics, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version 1.0.0 for extension williangalvani.plc-diagnostics, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -1602,11 +1598,19 @@
                 "status": "ERROR"
             },
             {
+                "message": "Failed to generate version 1.0.1 for extension williangalvani.plc-diagnostics, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.5 for extension williangalvani.plc-diagnostics, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version v1.0.3 for extension williangalvani.plc-diagnostics, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.0.0 for extension williangalvani.plc-diagnostics, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.2 for extension williangalvani.plc-diagnostics, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -1624,19 +1628,19 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.2 for extension williangalvani.usbip, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.0.0 for extension williangalvani.usbip, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version v1.0.1 for extension williangalvani.usbip, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
                 "message": "Failed to generate version v1.0.3 for extension williangalvani.usbip, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.2 for extension williangalvani.usbip, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.usbip, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             }
         ],
@@ -1658,15 +1662,15 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.5 for extension williangalvani.virtualhere, error: Error on Docker Auth API with status 401",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version v1.0.0 for extension williangalvani.virtualhere, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
                 "message": "Failed to generate version v1.0.4 for extension williangalvani.virtualhere, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.5 for extension williangalvani.virtualhere, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -1712,7 +1716,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.0 for extension williangalvani.zerotier, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.14.0 for extension williangalvani.zerotier, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
@@ -1724,11 +1728,11 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.14.0 for extension williangalvani.zerotier, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.12.1 for extension williangalvani.zerotier, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.12.1 for extension williangalvani.zerotier, error: Error on Docker Auth API with status 401",
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.zerotier, error: Error on Docker Auth API with status 401",
                 "status": "ERROR"
             },
             {
